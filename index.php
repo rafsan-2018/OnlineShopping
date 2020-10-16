@@ -66,4 +66,10 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 	</head>
     <body class="cnt-home">
+
+	<header class="header-style-1">
+<?php include('includes/top-header.php');?>
+<?php include('includes/main-header.php');?>
+<?php include('includes/menu-bar.php');?>
+</header>
 	
