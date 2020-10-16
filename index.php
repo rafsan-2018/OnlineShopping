@@ -72,4 +72,30 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <?php include('includes/main-header.php');?>
 <?php include('includes/menu-bar.php');?>
 </header>
+
+<div class="body-content outer-top-xs" id="top-banner-and-menu">
+	<div class="container">
+		<div class="furniture-container homepage-container">
+		<div class="row">
+		
+			<div class="col-xs-12 col-sm-12 col-md-3 sidebar">
+			<?php include('includes/side-menu.php');?>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">
+			<div id="hero" class="homepage-slider3">
+	<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
+		<div class="full-width-slider">	
+			<div class="item" style="background-image: url(assets/images/sliders/slider1.png);">
+				
+			</div>
+		</div>
+	    
+	    <div class="full-width-slider">
+			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/slider2.png);">
+			</div>
+		</div>
+
+	</div>
+</div>
+		
 	
