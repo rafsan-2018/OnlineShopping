@@ -25,7 +25,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+		
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -36,21 +36,21 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
 	    <title>Shopping Portal Home Page</title>
 
-	    <!-- Bootstrap Core CSS -->
+	    
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    
-	    <!-- Customizable CSS -->
+	    
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">
-		<!--<link rel="stylesheet" href="assets/css/owl.theme.css">-->
+		
 		<link href="assets/css/lightbox.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-		<!-- Demo Purpose Only. Should be removed in production -->
+		
 		<link rel="stylesheet" href="assets/css/config.css">
 
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
@@ -61,7 +61,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		
-		<!-- Favicon -->
+		
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 
 	</head>
@@ -96,6 +96,55 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		</div>
 
 	</div>
+</div>
+
+<div class="info-boxes wow fadeInUp">
+	<div class="info-boxes-inner">
+		<div class="row">
+			<div class="col-md-6 col-sm-4 col-lg-4">
+				<div class="info-box">
+					<div class="row">
+						<div class="col-xs-2">
+						     <i class="icon fa fa-dollar"></i>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="info-box-heading green">money back</h4>
+						</div>
+					</div>	
+					<h6 class="text">30 Day Money Back Guarantee.</h6>
+				</div>
+			</div>
+
+			<div class="hidden-md col-sm-4 col-lg-4">
+				<div class="info-box">
+					<div class="row">
+						<div class="col-xs-2">
+							<i class="icon fa fa-truck"></i>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="info-box-heading orange">free shipping</h4>
+						</div>
+					</div>
+					<h6 class="text">free ship-on oder over Rs. 600.00</h6>	
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-4 col-lg-4">
+				<div class="info-box">
+					<div class="row">
+						<div class="col-xs-2">
+							<i class="icon fa fa-gift"></i>
+						</div>
+						<div class="col-xs-10">
+							<h4 class="info-box-heading red">Special Sale</h4>
+						</div>
+					</div>
+					<h6 class="text">All items-sale up to 20% off </h6>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </div>
 		
 	
