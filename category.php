@@ -90,3 +90,26 @@ header('location:my-wishlist.php');
     <body class="cnt-home">
 	
 <header class="header-style-1">
+<?php include('includes/top-header.php');?>
+<?php include('includes/main-header.php');?>
+<?php include('includes/menu-bar.php');?>
+
+</header>
+</div><!-- /.breadcrumb -->
+<div class="body-content outer-top-xs">
+	<div class='container'>
+		<div class='row outer-bottom-sm'>
+			<div class='col-md-3 sidebar'>
+
+			<div class="side-menu animate-dropdown outer-bottom-xs">       
+<div class="side-menu animate-dropdown outer-bottom-xs">
+    <div class="head"><i class="icon fa fa-align-justify fa-fw"></i>Sub Categories</div>        
+    <nav class="yamm megamenu-horizontal" role="navigation">
+  
+        <ul class="nav">
+            <li class="dropdown menu-item">
+              <?php $sql=mysqli_query($con,"select id,subcategory  from subcategory where categoryid='$cid'");
+
+while($row=mysqli_fetch_array($sql))
+
+
