@@ -111,5 +111,6 @@ header('location:my-wishlist.php');
               <?php $sql=mysqli_query($con,"select id,subcategory  from subcategory where categoryid='$cid'");
 
 while($row=mysqli_fetch_array($sql))
+<!--123 -->
 
 
