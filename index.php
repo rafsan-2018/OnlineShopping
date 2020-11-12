@@ -143,15 +143,12 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 				</div>
 			</div>
 		</div>
-	</div>
-	
-</div>
-  </div>
-
+		  </div>
+	    </div>
+      </div>
+    </div>
   </div>
 		
-
-	
 		<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
 			   <h3 class="new-product-title pull-left">Featured Products</h3>
