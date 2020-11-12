@@ -142,7 +142,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 					<h6 class="text">All items-sale up to 20% off </h6>	
 				</div>
 			</div>
-		</div>
 		  </div>
 	    </div>
       </div>
