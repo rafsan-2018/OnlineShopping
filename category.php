@@ -111,6 +111,65 @@ header('location:my-wishlist.php');
               <?php $sql=mysqli_query($con,"select id,subcategory  from subcategory where categoryid='$cid'");
 
 while($row=mysqli_fetch_array($sql))
-<!--123 -->
 
+{
+    ?>
+                <a href="sub-category.php?scid=<?php echo $row['id'];?>" class="dropdown-toggle"><i class="icon fa fa-desktop fa-fw"></i>
+                <?php echo $row['subcategory'];?></a>
+                <?php }?>
+                        
+</li>
+</ul>
+    </nav>
+</div>
+</div>
+           <div class="sidebar-module-container">
+	            	<h3 class="section-title">shop by</h3>
+	            	<div class="sidebar-filter">
+		            	
+<div class="sidebar-widget wow fadeInUp outer-bottom-xs ">
+	<div class="widget-header m-t-20">
+		<h4 class="widget-title">Category</h4>
+	</div>
+	<div class="sidebar-widget-body m-t-10">
+	         <?php $sql=mysqli_query($con,"select id,categoryName  from category");
+while($row=mysqli_fetch_array($sql))
+{
+    ?>
+		<div class="accordion">
+	    	<div class="accordion-group">
+	            <div class="accordion-heading">
+	                <a href="category.php?cid=<?php echo $row['id'];?>"  class="accordion-toggle collapsed">
+	                   <?php echo $row['categoryName'];?>
+	                </a>
+	            </div>  
+	        </div>
+	    </div>
+	    <?php } ?>
+	</div>
+</div>
+
+
+
+    
+
+
+	            	</div>
+	            </div>
+            </div>
+			<div class='col-md-9'>
+				
+
+	<div id="category" class="category-carousel hidden-xs">
+		<div class="item">	
+			<div class="image">
+				<img src="assets/images/banners/cat-banner-1.jpg" alt="" class="img-responsive">
+			</div>
+			<div class="container-fluid">
+				<div class="caption vertical-top text-left">
+					<div class="big-text">
+						<br />
+					</div>
+
+					       <?php $sql=mysqli_query($con,"select categoryName  from category where id='$cid'");
 
