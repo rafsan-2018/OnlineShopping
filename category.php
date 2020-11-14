@@ -95,7 +95,7 @@ header('location:my-wishlist.php');
 <?php include('includes/menu-bar.php');?>
 
 </header>
-</div><!-- /.breadcrumb -->
+</div>
 <div class="body-content outer-top-xs">
 	<div class='container'>
 		<div class='row outer-bottom-sm'>
