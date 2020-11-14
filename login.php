@@ -17,8 +17,8 @@ if($query)
 else{
 echo "<script>alert('Not register something went worng');</script>";
 }
-}
 
+}
 if(isset($_POST['login']))
 {
    $email=$_POST['email'];
@@ -69,10 +69,7 @@ exit();
 		<meta name="author" content="">
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
-
-	    <title>Shopping Portal | Signi-in | Signup</title>
-
-	 
+	    <title>Shopping Portal | Signi-in | Signup</title> 
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
@@ -82,24 +79,14 @@ exit();
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-
-	
 		<link rel="stylesheet" href="assets/css/config.css">
-
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
 		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
 		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
-		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
-	
-
-		
-		
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
- 
-		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-		
-	
+		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">		
+	     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>		
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 <script type="text/javascript">
 function valid()
