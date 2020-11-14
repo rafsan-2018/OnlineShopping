@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 include('includes/config.php');
-// Code user Registration
+
 if(isset($_POST['submit']))
 {
 $name=$_POST['fullname'];
@@ -18,7 +18,7 @@ else{
 echo "<script>alert('Not register something went worng');</script>";
 }
 }
-// Code for User login
+
 if(isset($_POST['login']))
 {
    $email=$_POST['email'];
@@ -61,7 +61,7 @@ exit();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+		
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -72,21 +72,18 @@ exit();
 
 	    <title>Shopping Portal | Signi-in | Signup</title>
 
-	    <!-- Bootstrap Core CSS -->
+	 
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	    
-	    <!-- Customizable CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">
-		<!--<link rel="stylesheet" href="assets/css/owl.theme.css">-->
 		<link href="assets/css/lightbox.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-		<!-- Demo Purpose Only. Should be removed in production -->
+	
 		<link rel="stylesheet" href="assets/css/config.css">
 
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
@@ -94,16 +91,15 @@ exit();
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
 		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
-		<!-- Demo Purpose Only. Should be removed in production : END -->
+	
 
 		
-		<!-- Icons/Glyphs -->
+		
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-        <!-- Fonts --> 
+ 
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		
-		<!-- Favicon -->
+	
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 <script type="text/javascript">
 function valid()
@@ -140,20 +136,19 @@ error:function (){}
 	
 		
 	
-		<!-- ============================================== HEADER ============================================== -->
+	
 <header class="header-style-1">
 
-	<!-- ============================================== TOP MENU ============================================== -->
 <?php include('includes/top-header.php');?>
-<!-- ============================================== TOP MENU : END ============================================== -->
+
 <?php include('includes/main-header.php');?>
-	<!-- ============================================== NAVBAR ============================================== -->
+	
 <?php include('includes/menu-bar.php');?>
-<!-- ============================================== NAVBAR : END ============================================== -->
+
 
 </header>
 
-<!-- ============================================== HEADER : END ============================================== -->
+
 <div class="breadcrumb">
 	<div class="container">
 		<div class="breadcrumb-inner">
@@ -161,15 +156,15 @@ error:function (){}
 				<li><a href="home.html">Home</a></li>
 				<li class='active'>Authentication</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-bd">
 	<div class="container">
 		<div class="sign-in-page inner-bottom-sm">
 			<div class="row">
-				<!-- Sign-in -->			
+						
 <div class="col-md-6 col-sm-6 sign-in">
 	<h4 class="">sign in</h4>
 	<p class="">Hello, Welcome to your account.</p>
@@ -196,9 +191,6 @@ echo htmlentities($_SESSION['errmsg']="");
 	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="login">Login</button>
 	</form>					
 </div>
-<!-- Sign-in -->
-
-<!-- create a new account -->
 <div class="col-md-6 col-sm-6 create-new-account">
 	<h4 class="checkout-subtitle">create a new account</h4>
 	<p class="text title-tag-line">Create your own Shopping account.</p>
@@ -246,7 +238,7 @@ echo htmlentities($_SESSION['errmsg']="");
 		</label>
 	</div>
 </div>	
-<!-- create a new account -->			</div><!-- /.row -->
+			</div>
 		</div>
 <?php include('includes/brands-slider.php');?>
 </div>
@@ -268,8 +260,7 @@ echo htmlentities($_SESSION['errmsg']="");
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
-	
+
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
 	<script>
@@ -285,9 +276,6 @@ echo htmlentities($_SESSION['errmsg']="");
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
-
-	
 
 </body>
 </html>
