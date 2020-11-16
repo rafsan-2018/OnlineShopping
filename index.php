@@ -34,7 +34,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Shopping Portal Home Page</title>
+	    <title>Online Shopping Home Page</title>
 
 	    
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -125,7 +125,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<h4 class="info-box-heading orange">free shipping</h4>
 						</div>
 					</div>
-					<h6 class="text">free ship-on oder over Rs. 600.00</h6>	
+					<h6 class="text">free ship-on oder over TK. 600.00</h6>	
 				</div>
 			</div>
 
