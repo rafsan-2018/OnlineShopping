@@ -9,14 +9,14 @@
         <div class="logo">
             <a href="index.php">
                 
-<h3> Online Shopping </h3>
+<h3>Online Shopping</h3>
             </a>
         </div><!-- /.logo -->
     
     </div><!-- /.footer-logo -->
 
      <div class="module-body m-t-20">
-        <p class="about-us"> Nam libero tempore, cum soluta nobis est ses  eligendi optio cumque cum soluta nobis est ses  eligendi optio cumque.</p>
+        <p class="about-us"> </p>
     
         <div class="social-icons">
             
@@ -43,9 +43,9 @@
 		<div class="table-responsive">
 			<table class="table">
 				<tbody>
-					<tr><td>Monday-Friday:</td><td class="pull-right">08.00 To 18.00</td></tr>
-					<tr><td>Saturday:</td><td class="pull-right">09.00 To 20.00</td></tr>
-					<tr><td>Sunday:</td><td class="pull-right">10.00 To 20.00</td></tr>
+					<tr><td>Monday-Friday:</td><td class="pull-right">06.00AM To 10.00PM</td></tr>
+					<tr><td>Saturday:</td><td class="pull-right">06.00AM To 10.00PM</td></tr>
+					<tr><td>Sunday:</td><td class="pull-right">06.00AM To 10.00PM</td></tr>
 				</tbody>
 			</table>
 		</div><!-- /.table-responsive -->
@@ -70,7 +70,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>sylhet, Bangladesh</p>
+                    <p>Sylhet, BD</p>
                 </div>
             </li>
 
@@ -82,7 +82,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>(017) 000000000000<br>(017) 000000000000</p>
+                    <p>(017)00000000<br>(017)00000000</p>
                 </div>
             </li>
 
@@ -94,7 +94,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <span><a href="#">sharifrafsan2018@gmail.com</a></span>
+                    <span><a href="#">Sharifrafsan2018@gmail.com</a></span>
                 </div>
             </li>
               

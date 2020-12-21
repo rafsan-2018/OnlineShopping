@@ -20,7 +20,7 @@
 <div class="logo">
 	<a href="index.php">
 		
-		<h2> Online Shopping </h2>
+		<h2>Online Shopping </h2>
 
 	</a>
 </div>		
